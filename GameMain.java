@@ -30,6 +30,8 @@ public class GameMain extends JPanel implements MouseListener{
 	private enum GameState {Playing, Draw, Cross_won, Nought_won}
 	// the current player
 	private Player currentPlayer; 
+	// the current state
+	private GameState currentState;
 	// for displaying game status message
 	private JLabel statusBar;       
 	
