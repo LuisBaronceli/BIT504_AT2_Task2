@@ -1,4 +1,3 @@
-package game;
 
 /**
  * Enumeration for the players move
